@@ -70,7 +70,8 @@ choice(a)
 #a = 10
 ```
 
-```[
+```
+[
   { type: 'keyword', value: '#' },
   { type: 'identifier', value: 'a' },
   { type: 'operator', value: '=' },
