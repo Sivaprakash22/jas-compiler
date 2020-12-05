@@ -5,7 +5,7 @@ The JAS compiler is used to compile the JAS language and produce a suitable outp
 
 # Installation 
 
-`npm i jas-compiler`
+```npm i jas-compiler```
 
 # Usage
 
