@@ -5,11 +5,15 @@ The JAS compiler is used to compile the JAS language and produce a suitable outp
 
 # Installation 
 
-```npm i jas-compiler```
+```
+npm i jas-compiler
+```
 
 # Usage
 
-`node JasCompiler.js calc.jas --file[option] Abhisek[option]`
+```
+node JasCompiler.js calc.jas --file[option] Abhisek[option]
+```
 
 # Features
 
@@ -30,14 +34,20 @@ Error shown with the username
 Syntax 
 
 Variable
-`# a = 10;`
 
-Constant
-`## b = 10;`
+```
+# a = 10;
+```
+
+Constant variable
+```
+## b = 10;
+```
 
 ## Function
 
-```Fn add(a,b)
+```
+Fn add(a,b)
 {
   show(a+b);
 }
@@ -46,7 +56,8 @@ add(a,b);
 
 ## Choice
 
-```choice(a)
+```
+choice(a)
 {
     option 'add':
     add(num1,num2)
@@ -55,7 +66,9 @@ add(a,b);
 ```
 ## Tokenizer
 
-'#a = 10'
+```
+#a = 10
+```
 
 ```[
   { type: 'keyword', value: '#' },
